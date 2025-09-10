@@ -234,18 +234,13 @@ if __name__ == "__main__":
     main()
 
 # 1. Similarity-to-Final Scorer
-
 # Compute semantic similarity or edit distance between the candidate draft and the final draft.
-
 # Higher = closer to lawyer edits.
 
 # 2. Anchored Pairwise Scorer
-
 # In pairwise mode, give the judge both candidates + the final draft and ask:
 # “Which candidate is closer to the final draft, and why?”
 
 # 3. Fine-tuned Evaluator
-
 # Actually fine-tune a model on (rough, final) pairs so it learns lawyer preferences directly.
-
 # That’s what the report hints at with “distill the legal expertise into GPT-4.1.”

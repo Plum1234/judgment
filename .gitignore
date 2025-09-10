@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.venv
+*.conda
+
+# Environment files
+.env
+*.env
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs & debug
+*.log
+*.out
+*.err
+
+# System / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.cache/
+
+# Build / packaging
+build/
+dist/
+*.manifest
+*.spec
+*.lock
+*.bak
