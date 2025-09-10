@@ -1,0 +1,14 @@
+# tests.yaml
+examples:
+  - input: "Question : What is the capital of the United States?"
+    expected_output: "Washington, D.C."
+    retrieval_context:
+      - "Washington, D.C. is the capital of the United States."
+  - input: "Question : How much wood could a wood chuck chuck?"
+    expected_output: null
+    retrieval_context:
+      - "Woodchucks (groundhogs) don't actually chuck wood; it's a tongue twister."
+  - input: "Question : Who wrote The Republic?"
+    expected_output: "Plato."
+    retrieval_context:
+      - "The Republic is a philosophical dialogue by Plato."
